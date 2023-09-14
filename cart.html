@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Cart | E-COMMERCE WEBSITE BY EDYODA </title>
+    <title></title>
     <link rel="stylesheet" href="css/cart.css">
     <!-- favicon -->
     <link rel="icon" href="https://mail.google.com/mail/u/0?ui=2&ik=9b4aa09543&attid=0.1.1&permmsgid=msg-f:1776085352223816229&th=18a5ec37be133a25&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8_pwwy81kIU-6cePiMSZGIjgleHzp14f7Q8BBiy9Vp5BIFvtSJWQfBzr0WbJe1XP20hJaef0gNGQ5MPYPy4uM5L9m-FIp7HpXiv3Mkaa5Yi2lQrh8YAYmSkVw&disp=emb" type="image/gif" sizes="16x16">
@@ -15,9 +15,9 @@
 
 </head>
 <body>
-        <!-- HEADER -->
+    <header>
     <div id="1"></div>
-    <script>
+        <script>
         load("header.html");
         function load(url)
         {
@@ -26,8 +26,8 @@
             req.send(null);
             document.getElementById(1).innerHTML = req.responseText;
         }
-    </script>
-
+        </script>
+    </header>
         <!-- CART CONTAINER -->
     <div id="cartMainContainer">
         <h1> Checkout </h1>
@@ -40,9 +40,9 @@
     </div>
 
 </body>
-    <!-- FOOTER -->
-    <div id="4"></div>
-    <script>
+    <footer>
+        <div id="4"></div>
+            <script>
         load("footer.html");
         function load(url)
         {
@@ -51,6 +51,7 @@
             req.send(null);
             document.getElementById(4).innerHTML = req.responseText;
         }
-    </script>
+            </script>
+    </footer>
 <script src="/cart.js"></script>
 </html>
